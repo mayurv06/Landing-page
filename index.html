@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Wonder&Wonder&Vibe Travel â Plan Your Next Adventure</title>
+  <meta name="description" content="Wonder&Wonder&Vibe Travel â effortless trip planning, curated itineraries and instant booking." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="bg-anim" aria-hidden="true"></div>
+  <canvas id="particle-canvas" aria-hidden="true"></canvas>
+
+  <header class="nav">
+    <a class="logo" href="#">Wonder&Vibe</a>
+    <nav class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#how">How it Works</a>
+      <a href="#social">Customers</a>
+      <button class="btn btn-ghost" id="joinTop">Join Wonder&Wonder&Vibe</button>
+    </nav>
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false">?</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <h1 class="headline">Plan, Book, Go.</h1>
+        <p class="sub">Tailored trips, curated itineraries, and effortless bookingâdesigned for curious travelers.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" id="ctaMain" href="#features">Plan Your Trip</a>
+          <a class="btn btn-outline" href="#how">Explore Destinations</a>
+        </div>
+        <ul class="stats" aria-hidden="true">
+          <li><strong>10k+</strong><span>Trips planned</span></li>
+          <li><strong>4.9?</strong><span>average rating</span></li>
+          <li><strong>Global</strong><span>coverage</span></li>
+        </ul>
+      </div>
+      <div class="hero-card glass">
+        <div class="card-line">Featured destination</div>
+        <div class="card-content">
+          <img class="hero-img" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=60" alt="Tropical beach" />
+          <div>
+            <div class="card-title">Bali, Indonesia</div>
+            <div class="card-sub">7-day surf & culture trip starting at $799</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <h2 class="section-title">Travel features</h2>
+      <div class="cards">
+        <article class="card">
+<h3>Smart planning</h3>
+          <p>Personalized itineraries based on your tastes and budget.</p>
+        </article>
+        <article class="card">
+<h3>Handpicked stays</h3>
+          <p>Hotels and homes vetted for comfort and local character.</p>
+        </article>
+        <article class="card">
+<h3>Easy booking</h3>
+          <p>Flights, transfers, and experiences in one checkout flow.</p>
+        </article>
+        <article class="card">
+<h3>Flexible dates</h3>
+          <p>Find best dates and price trends with smart recommendations.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="how" class="how">
+      <h2 class="section-title">How it works</h2>
+      <ol class="steps">
+        <li>
+          <div class="step-num">1</div>
+          <div class="step-body"><strong>Install</strong> â Add the CSS and components to your project.</div>
+        </li>
+        <li>
+          <div class="step-num">2</div>
+          <div class="step-body"><strong>Customize</strong> â Tweak tokens and colors to match your brand.</div>
+        </li>
+        <li>
+          <div class="step-num">3</div>
+          <div class="step-body"><strong>Ship</strong> â Deploy with confidence and delight users.</div>
+        </li>
+      </ol>
+    </section>
+
+    <section id="social" class="social">
+      <h2 class="section-title">Loved by travelers</h2>
+      <div class="place-grid">
+        <figure class="place-card glass">
+          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=70" alt="Coastal cliffside at sunset" />
+          <figcaption>Amalfi Coast</figcaption>
+        </figure>
+        <figure class="place-card glass">
+          <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=70" alt="Mountain lake and pine forest" />
+          <figcaption>Lake Louise</figcaption>
+        </figure>
+        <figure class="place-card glass">
+          <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=70" alt="Golden desert dunes" />
+          <figcaption>Sahara Dunes</figcaption>
+        </figure>
+        <figure class="place-card glass">
+          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=70" alt="Ocean view and blue sky" />
+          <figcaption>Azure Beach</figcaption>
+        </figure>
+      </div>
+
+      <div class="testimonials">
+        <blockquote class="glass test">
+          âWonder&Wonder&Vibe Travel planned our honeymoonâevery detail was effortless.â
+          <cite>â Lila, Traveler</cite>
+        </blockquote>
+        <blockquote class="glass test">
+          âGreat recommendations and seamless booking.â
+          <cite>â Marco, Adventure seeker</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="close-cta">
+      <h2 class="closing">Ready to join the vibe?</h2>
+      <a class="btn btn-hero" href="#" id="finalCta">Join Wonder&Wonder&Vibe</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>Â© 2026 Wonder&Vibe â Built with neon focus.</small>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
